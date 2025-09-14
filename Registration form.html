@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updated Registration Form</title>
+</head>
+<body>
+  <h2>Updated Registration Form</h2>
+
+  <form action="" method="post" name="registration">
+
+    <!-- Text -->
+    <p>
+      First Name: <br>
+      <input type="text" name="firstname" placeholder="Enter your first name" maxlength="30" required>
+    </p>
+
+    <!-- Password -->
+    <p>
+      Create Password: <br>
+      <input type="password" name="new_password" maxlength="12" required>
+    </p>
+
+    <!-- Email -->
+    <p>
+      School Email: <br>
+      <input type="email" name="school_email" placeholder="example@school.edu" required>
+    </p>
+
+    <!-- Number -->
+    <p>
+      Phone Number: <br>
+      <input type="number" name="phone" placeholder="07XXXXXXXX">
+    </p>
+
+    <!-- Date -->
+    <p>
+      Enrollment Date: <br>
+      <input type="date" name="enroll_date">
+    </p>
+
+    <!-- Time -->
+    <p>
+      Preferred Study Time: <br>
+      <input type="time" name="study_time">
+    </p>
+
+    <!-- File Upload -->
+    <p>
+      Upload Student ID: <br>
+      <input type="file" name="student_id">
+    </p>
+
+    <!-- Textarea -->
+    <p>
+      Briefly describe your hobbies: <br>
+      <textarea name="hobbies" cols="30" rows="5"></textarea>
+    </p>
+
+    <!-- Radio Buttons -->
+    <p>
+      Select your level of study: <br>
+      <input type="radio" name="level" value="certificate"> Certificate
+      <input type="radio" name="level" value="diploma"> Diploma
+      <input type="radio" name="level" value="degree"> Degree
+    </p>
+
+    <!-- Checkboxes -->
+    <p>
+      Clubs you are interested in: <br>
+      <input type="checkbox" name="club" value="drama"> Drama Club
+      <input type="checkbox" name="club" value="robotics"> Robotics Club
+      <input type="checkbox" name="club" value="football"> Football Club
+    </p>
+
+    <!-- Dropdown (Select) -->
+    <p>
+      Campus Location: <br>
+      <select name="campus">
+        <option value="nairobi">Nairobi</option>
+        <option value="mombasa">Mombasa</option>
+        <option value="kisumu">Kisumu</option>
+        <option value="eldoret">Eldoret</option>
+      </select>
+    </p>
+
+    <!-- Range -->
+    <p>
+      Rate your computer skills (1–10): <br>
+      <input type="range" name="skills" min="1" max="10">
+    </p>
+
+    <!-- Color Picker -->
+    <p>
+      Choose your favorite theme color: <br>
+      <input type="color" name="theme_color">
+    </p>
+
+    <!-- URL -->
+    <p>
+      Link to your portfolio: <br>
+      <input type="url" name="portfolio" placeholder="https://myportfolio.com">
+    </p>
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="form_id" value="updated_form2025">
+
+    <!-- Submit & Reset -->
+    <p>
+      <input type="submit" value="Submit Registration">
+      <input type="reset" value="Reset Form">
+    </p>
+
+  </form>
+</body>
+</html>
